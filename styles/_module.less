@@ -1,0 +1,44 @@
+.parts {
+	background-color: lighten(gray, 30%);	
+	padding: 10px 10px;
+	width: auto;
+	min-width: 100px;
+	display: inline-block;
+	border-radius: 5px;		
+	.parts__item {
+		background-color: lighten(gray, 50%);	
+	}
+	&--bicycle {
+		background-color: lighten(green, 20%);		
+		.parts__item {
+			background-color: lighten(green, 40%);	
+		}						
+	}
+
+	&--car {
+		background-color: lighten(red, 20%);		
+		.parts__item {
+			background-color: lighten(red, 40%);	
+		}	
+	}
+	
+	&--shadowed {
+		box-shadow: 2px 2px 2px 2px;
+	}	
+}
+
+.icon {
+	border-radius: 10px;	
+	background-color: pink;
+	display: inline-block;
+	padding: 10px;	
+	&--rounded {
+		border-radius: 50px;	
+	}
+}
+
+.header-title {
+	text-transform: uppercase;
+	font-size: 26px;
+	padding: 10px 10px;
+}

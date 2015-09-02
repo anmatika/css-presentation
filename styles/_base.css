@@ -1,6 +1,20 @@
+header {
+  background: #6666ff;
+  color: white;
+  margin-bottom: 10px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  min-height: 50px;
+  height: auto;
+  background: #6666ff;
+  width: 100%;
+}
 h1 {
   font-weight: 12px;
 }
 p {
-  font-weight: bold;
+  font-weight: normal;
 }

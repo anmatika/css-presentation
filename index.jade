@@ -1,0 +1,55 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title SMACSS presentation
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='styles/_base.css')
+    link(rel='stylesheet', href='styles/_layout.css')
+    link(rel='stylesheet', href='styles/_module.css')
+    link(rel='stylesheet', href='styles/_state.css')
+  body
+    header#header
+      .l-container.l-clearfix
+        .header-title smacss presentation
+        a.logo.l-align-left(href='index.html')
+          img(src='img/logo.png')
+        nav.l-inline          
+          ul
+            li home
+            li about us
+              ul.l-stacked
+                li team
+                li location
+
+    .l-container--centered.l-clearfix    
+        
+        .parts.parts
+          .part-heading Parts
+          .parts__item rock
+          .parts__item lego
+          .parts__item chess piece
+
+        .parts.parts--bicycle
+          .part-heading Bicycle parts
+          .parts__item pedal
+          .parts__item saddle
+          .parts__item derailleur
+
+        .parts.parts--car
+          .part-heading Car parts
+          .parts__item gasoline tank
+          .parts__item steering wheel
+          .parts__item motor
+        
+    footer
+      .l-container.l-container--centered.l-clearfix
+        .icon
+          img(src='img/floral120.png')
+        .icon.icon--rounded
+          img(src='img/floral121.png')
+        .icon
+          img(src='img/flower217.png')
+
+    script(src='//localhost:35729/livereload.js')
