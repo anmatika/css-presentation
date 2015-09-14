@@ -10,7 +10,7 @@ html
     link(rel='stylesheet', href='styles/_module.css')
     link(rel='stylesheet', href='styles/_state.css')
   body
-    header#header
+    header
       .l-container.l-clearfix
         .header-title smacss presentation
         a.logo.l-align-left(href='index.html')
@@ -23,28 +23,32 @@ html
                 li team
                 li location
 
-    .l-container--centered.l-clearfix    
-        
-        .parts.parts
-          .part-heading Parts
+    .l-container.l-container-centered.l-clearfix    
+        .parts__item lego
+        .parts
+          .parts-heading Parts
           .parts__item rock
           .parts__item lego
           .parts__item chess piece
 
         .parts.parts--bicycle
-          .part-heading Bicycle parts
-          .parts__item pedal
-          .parts__item saddle
+          .parts-heading Bicycle parts
+          .parts__item
+            span.parts__item-name pedal
+            span.parts__item-count  (5)
+          .parts__item
+            span.parts__item-name saddle
+            span.parts__item-count  (1)
           .parts__item derailleur
 
         .parts.parts--car
-          .part-heading Car parts
+          .parts-heading Car parts
           .parts__item gasoline tank
           .parts__item steering wheel
           .parts__item motor
         
     footer
-      .l-container.l-container--centered.l-clearfix
+      .l-container.l-container-centered.l-clearfix
         .icon
           img(src='img/floral120.png')
         .icon.icon--rounded

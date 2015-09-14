@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/_state.css"/>
   </head>
   <body>
-    <header id="header">
+    <header>
       <div class="l-container l-clearfix">
         <div class="header-title">smacss presentation</div><a href="index.html" class="logo l-align-left"><img src="img/logo.png"/></a>
         <nav class="l-inline">         
@@ -28,28 +28,29 @@
         </nav>
       </div>
     </header>
-    <div class="l-container--centered l-clearfix">   
-      <div class="parts parts">
-        <div class="part-heading">Parts</div>
+    <div class="l-container l-container-centered l-clearfix">   
+      <div class="parts__item">lego</div>
+      <div class="parts">
+        <div class="parts-heading">Parts</div>
         <div class="parts__item">rock</div>
         <div class="parts__item">lego</div>
         <div class="parts__item">chess piece</div>
       </div>
       <div class="parts parts--bicycle">
-        <div class="part-heading">Bicycle parts</div>
-        <div class="parts__item">pedal</div>
-        <div class="parts__item">saddle</div>
+        <div class="parts-heading">Bicycle parts</div>
+        <div class="parts__item"><span class="parts__item-name">pedal</span><span class="parts__item-count"> (5)</span></div>
+        <div class="parts__item"><span class="parts__item-name">saddle</span><span class="parts__item-count"> (1)</span></div>
         <div class="parts__item">derailleur</div>
       </div>
       <div class="parts parts--car">
-        <div class="part-heading">Car parts</div>
+        <div class="parts-heading">Car parts</div>
         <div class="parts__item">gasoline tank</div>
         <div class="parts__item">steering wheel</div>
         <div class="parts__item">motor</div>
       </div>
     </div>
     <footer>
-      <div class="l-container l-container--centered l-clearfix">
+      <div class="l-container l-container-centered l-clearfix">
         <div class="icon"><img src="img/floral120.png"/></div>
         <div class="icon icon--rounded"><img src="img/floral121.png"/></div>
         <div class="icon"><img src="img/flower217.png"/></div>

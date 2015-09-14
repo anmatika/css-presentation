@@ -6,8 +6,15 @@
   display: inline-block;
   border-radius: 5px;
 }
-.parts .parts__item {
+.parts__heading {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.parts__item {
   background-color: #ffffff;
+}
+.parts__item-count {
+  font-weight: bold;
 }
 .parts--bicycle {
   background-color: #00e600;
@@ -22,7 +29,7 @@
   background-color: #ffcccc;
 }
 .parts--shadowed {
-  box-shadow: 2px 2px 2px 2px;
+  box-shadow: 1px 1px 1px 1px;
 }
 .icon {
   border-radius: 10px;

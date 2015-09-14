@@ -50,7 +50,7 @@ module.exports = function(grunt) {
             },
             styles: {
                 files: ['styles/**/*.less'],
-                tasks: ['less'],
+                // tasks: ['less'],
                 options: {
                     nospawn: true
                 }

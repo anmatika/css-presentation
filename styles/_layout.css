@@ -5,10 +5,16 @@
  */
 .l-container {
   padding: 10px 5px;
-}
-.l-container--centered {
-  margin: 0 auto;
   width: 1120px;
+}
+.l-container-fixed {
+  width: 1120px;
+}
+.l-container-flipped {
+  float: left;
+}
+.l-container-centered {
+  margin: 0 auto;
 }
 .l-clearfix:after {
   content: "";

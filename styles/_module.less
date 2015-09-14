@@ -5,9 +5,20 @@
 	min-width: 100px;
 	display: inline-block;
 	border-radius: 5px;		
-	.parts__item {
-		background-color: lighten(gray, 50%);	
+	
+	&__heading {
+		text-transform: uppercase;
+		font-weight: bold;
 	}
+	
+	&__item {
+		background-color: lighten(gray, 50%);
+		
+		&-count {
+			font-weight: bold;
+		}
+	}
+	
 	&--bicycle {
 		background-color: lighten(green, 20%);		
 		.parts__item {
@@ -23,7 +34,7 @@
 	}
 	
 	&--shadowed {
-		box-shadow: 2px 2px 2px 2px;
+		box-shadow: 1px 1px 1px 1px;
 	}	
 }
 
