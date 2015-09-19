@@ -23,15 +23,9 @@ html
                 li team
                 li location
 
-    .l-container.l-container-centered.l-clearfix    
-        .parts__item lego
-        .parts
-          .parts-heading Parts
-          .parts__item rock
-          .parts__item lego
-          .parts__item chess piece
+    .l-container.l-container-centered.l-clearfix     
 
-        .parts.parts--bicycle
+        .parts.parts--bicycle.parts--shadowed
           .parts-heading Bicycle parts
           .parts__item
             span.parts__item-name pedal
@@ -46,7 +40,11 @@ html
           .parts__item gasoline tank
           .parts__item steering wheel
           .parts__item motor
-        
+            
+    input.btn.btn--negative(value="-")   
+    input.btn.btn--positive(value="+") 
+    input.btn.btn--positive.btn--shadowed(value="+") 
+
     footer
       .l-container.l-container-centered.l-clearfix
         .icon

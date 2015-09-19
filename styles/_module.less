@@ -1,5 +1,4 @@
-.parts {
-	background-color: lighten(gray, 30%);	
+.parts {	
 	padding: 10px 10px;
 	width: auto;
 	min-width: 100px;
@@ -37,6 +36,34 @@
 		box-shadow: 1px 1px 1px 1px;
 	}	
 }
+
+.btn { 
+	display: table-cell; 
+	padding: 5px 5px;
+	vertical-align: middle; 
+	text-align: center;
+	width: 50px;
+	height: 25px;
+	cursor: pointer;	
+	
+	&--small {
+		&:extend(.btn);
+		width: 50px;
+		height: 25px;	
+	}
+
+	&--positive { 
+		background-color: green; 
+		font-weight: bold;
+		color: white; 
+	} 
+
+	&--negative { 
+		background-color: red; 
+		font-weight: bold;
+		color: white; 
+	}	
+} 
 
 .icon {
 	border-radius: 10px;	

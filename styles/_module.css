@@ -1,5 +1,4 @@
 .parts {
-  background-color: #cdcdcd;
   padding: 10px 10px;
   width: auto;
   min-width: 100px;
@@ -30,6 +29,30 @@
 }
 .parts--shadowed {
   box-shadow: 1px 1px 1px 1px;
+}
+.btn,
+.btn--small {
+  display: table-cell;
+  padding: 5px 5px;
+  vertical-align: middle;
+  text-align: center;
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+}
+.btn--small {
+  width: 50px;
+  height: 25px;
+}
+.btn--positive {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+.btn--negative {
+  background-color: red;
+  font-weight: bold;
+  color: white;
 }
 .icon {
   border-radius: 10px;
