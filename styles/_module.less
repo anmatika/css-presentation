@@ -13,8 +13,11 @@
 	&__item {
 		background-color: lighten(gray, 50%);
 		
-		&-count {
+		&__count {
 			font-weight: bold;
+		}
+		&__name {
+			font-style: italic;
 		}
 	}
 	
@@ -38,17 +41,24 @@
 }
 
 .btn { 
-	display: table-cell; 
+	display: inline-block; 
 	padding: 5px 5px;
 	vertical-align: middle; 
 	text-align: center;
-	width: 50px;
-	height: 25px;
 	cursor: pointer;	
 	
 	&--small {
-		&:extend(.btn);
+		width: 20px;
+		height: 25px;	
+	}
+
+	&--medium {
 		width: 50px;
+		height: 25px;	
+	}
+
+	&--big {
+		width: 100px;
 		height: 25px;	
 	}
 

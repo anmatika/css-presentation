@@ -28,22 +28,23 @@ html
         .parts.parts--bicycle.parts--shadowed
           .parts-heading Bicycle parts
           .parts__item
-            span.parts__item-name pedal
-            span.parts__item-count  (5)
+            span.parts__item__name pedal
+            span.parts__item__count  (5)
           .parts__item
-            span.parts__item-name saddle
-            span.parts__item-count  (1)
-          .parts__item derailleur
-
+            span.parts__item__name saddle
+            span.parts__item__count  (1)
+          .parts__item 
+            span.parts__item__name derailleur
+            span.parts__item__count  (3)
         .parts.parts--car
           .parts-heading Car parts
           .parts__item gasoline tank
           .parts__item steering wheel
           .parts__item motor
             
-    input.btn.btn--negative(value="-")   
-    input.btn.btn--positive(value="+") 
-    input.btn.btn--positive.btn--shadowed(value="+") 
+    input.btn.btn--negative.btn--small(value="-")   
+    input.btn.btn--positive.btn--medium(value="+") 
+    input.btn.btn--positive.btn--big(value="+") 
 
     footer
       .l-container.l-container-centered.l-clearfix
