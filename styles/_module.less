@@ -37,8 +37,28 @@
 	}	
 }
 
+.header-menu {	
+	list-style: none;
+	&__item {
+		ul {
+			display: none;
+			position: absolute;
+			left: 100px;
+		}		
+	}
+	&__item:hover {
+		ul {
+			display: block;			
+		}
+	}
+	&__sub-menu {
+		background-color: gray;
+		padding: 0;
+	}
+}
+
 .btn { 
-	display: table-cell; 
+	
 	padding: 5px 5px;
 	vertical-align: middle; 
 	text-align: center;

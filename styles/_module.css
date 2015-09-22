@@ -30,9 +30,23 @@
 .parts--shadowed {
   box-shadow: 1px 1px 1px 1px;
 }
+.header-menu {
+  list-style: none;
+}
+.header-menu__item ul {
+  display: none;
+  position: absolute;
+  left: 100px;
+}
+.header-menu__item:hover ul {
+  display: block;
+}
+.header-menu__sub-menu {
+  background-color: gray;
+  padding: 0;
+}
 .btn,
 .btn--small {
-  display: table-cell;
   padding: 5px 5px;
   vertical-align: middle;
   text-align: center;
