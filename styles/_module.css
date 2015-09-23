@@ -12,8 +12,11 @@
 .parts__item {
   background-color: #ffffff;
 }
-.parts__item-count {
+.parts__item__count {
   font-weight: bold;
+}
+.parts__item__name {
+  font-style: italic;
 }
 .parts--bicycle {
   background-color: #00e600;
@@ -45,17 +48,23 @@
   background-color: gray;
   padding: 0;
 }
-.btn,
-.btn--small {
+.btn {
+  display: inline-block;
   padding: 5px 5px;
   vertical-align: middle;
   text-align: center;
-  width: 50px;
-  height: 25px;
   cursor: pointer;
 }
 .btn--small {
+  width: 20px;
+  height: 25px;
+}
+.btn--medium {
   width: 50px;
+  height: 25px;
+}
+.btn--big {
+  width: 100px;
   height: 25px;
 }
 .btn--positive {
